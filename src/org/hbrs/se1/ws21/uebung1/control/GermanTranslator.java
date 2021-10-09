@@ -21,18 +21,12 @@ public class GermanTranslator implements Translator {
 	}
 
 	public String date = "Okt/2021"; // Default-Wert
-	//private String[] zahlen = {"eins", "zwei", "drei", "vier", "fuenf", "sechs", "sieben", "acht", "neun", "zehn"};
 
 	/**
 	 * Methode zur Übersetzung einer Zahl in eine String-Repraesentation
 	 */
 	public String translateNumber( int number ) {
 		// [ihr Source Code aus Übung 1-2]
-		/*if (number < 1 | number > 10){
-			return "Übersetzung der Zahl " + number +  " nicht möglich;" + " Version: " + version;
-		}
-		return zahlen[number - 1];*/
-
 		return zahlInString.getOrDefault(number, "Übersetzung der Zahl " + number +  " nicht möglich" + " (" + version + ")");
 	}
 		
