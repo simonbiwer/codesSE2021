@@ -5,7 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="763f765e-6c7b-48ee-a193-e03a2bc9de25" name="Default Changelist" comment="Uebung 1 mit Assembler" />
+    <list default="true" id="763f765e-6c7b-48ee-a193-e03a2bc9de25" name="Default Changelist" comment="Uebung 1 mit Assembler">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634310038035</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Uebung 1 mit Assembler">
+      <created>1634310179112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1634310179112</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -331,10 +340,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1633772788842" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1634310069964">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1634311178257">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1634310069964" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1634311178257" />
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1633612163364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
