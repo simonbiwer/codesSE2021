@@ -27,7 +27,8 @@ public class GermanTranslator implements Translator {
 	 */
 	public String translateNumber( int number ) {
 		// [ihr Source Code aus Übung 1-2]
-		return zahlInString.getOrDefault(number, "Übersetzung der Zahl " + number +  " nicht möglich" + " (" + version + ")");
+		return zahlInString.getOrDefault(number, "Übersetzung der Zahl " + number +  " nicht möglich" + " ("
+				+ version + ")");
 	}
 		
 	/**

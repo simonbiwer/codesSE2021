@@ -8,6 +8,15 @@ public class Client {
 	/*
 	 * Methode zur Ausgabe einer Zahl auf der Console
 	 */
+
+	//Möglichkeit verschiedene Translator vom Client ausgeben zu lassen und bei Erstellung zu übergeben
+
+	private Translator translator;
+
+	public Client(Translator translator){
+		this.translator = translator;
+	}
+
 	public void display( int aNumber ) {
 		// In dieser Methode soll die Methode translateNumber 
 		// mit dem übergegebenen Wert der Variable aNumber 
