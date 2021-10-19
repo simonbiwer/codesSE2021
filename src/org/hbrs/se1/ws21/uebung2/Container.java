@@ -27,9 +27,8 @@ public class Container {
         return "Member mit der ID " + id + " wurde entfernt";
     }
     public void dump(){
-        Iterator<Member> it = list.iterator();
-        while (it.hasNext()){
-            System.out.println(it.next().toString());
+        for (Member m : list){
+            System.out.println(m.toString());
         }
     }
     public int size(){
@@ -39,9 +38,7 @@ public class Container {
     //prüft ob das Member Objekt mit dieser ID schon im Container ist und gibt den Member
     // oder null (bei nicht Vorhandensein) zurück
     private Member contains(Integer id){
-        Iterator<Member> it = list.iterator();
-        while (it.hasNext()){
-            Member m = it.next();
+        for (Member m : list){
             if (m.getID() == id){
                 return m;
             }
