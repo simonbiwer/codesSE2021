@@ -8,9 +8,9 @@ import static org.junit.jupiter.api.Assertions.*;
 class ContainerTest {
 
     Container c;
-    Item i;
-    Item j;
-    Item k;
+    Member i;
+    Member j;
+    Member k;
 
     @BeforeEach
     void setUp() {
@@ -22,7 +22,7 @@ class ContainerTest {
 
     @Test
     void addMember() {
-        Item j = new Item(1);
+        Member j = new Item(1);
         try{
             c.addMember(i);
             c.addMember(j);
