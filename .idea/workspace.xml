@@ -6,28 +6,24 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:se1" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:se1" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:se1/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="763f765e-6c7b-48ee-a193-e03a2bc9de25" name="Default Changelist" comment="Uebung 1 mit Assembler">
+    <list default="true" id="763f765e-6c7b-48ee-a193-e03a2bc9de25" name="Default Changelist" comment="Uebung 1 mit Assembler(1)">
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/ContainerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung1/control/GermanTranslator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung1/control/GermanTranslator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung1/view/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung1/view/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codesSE2021/org/hbrs/se1/ws21/uebung1/view/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +42,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1z83Ia00qnq1U94c3XgkQpE3Q9Z" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../adg_rechner" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Prog2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -66,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.hbrs.se1.ws21.uebung2" />
       <recent name="org.hbrs.se1.ws21.uebung1.control" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -76,7 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GermanTranslatorTest">
+  <component name="RunManager" selected="JUnit.ContainerTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.view.Assembler" />
       <module name="codesSE2021" />
@@ -84,80 +84,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GermanTranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung1.control" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.control.GermanTranslatorTest" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung2" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung2.ContainerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GermanTranslatorTest.testCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerTest.addMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung1.control" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.control.GermanTranslatorTest" />
-      <option name="METHOD_NAME" value="testCase1" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung2" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung2.ContainerTest" />
+      <option name="METHOD_NAME" value="addMember" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GermanTranslatorTest.testCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerTest.deleteMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung1.control" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.control.GermanTranslatorTest" />
-      <option name="METHOD_NAME" value="testCase2" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung2" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung2.ContainerTest" />
+      <option name="METHOD_NAME" value="deleteMember" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GermanTranslatorTest.testCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerTest.dump" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung1.control" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.control.GermanTranslatorTest" />
-      <option name="METHOD_NAME" value="testCase3" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung2" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung2.ContainerTest" />
+      <option name="METHOD_NAME" value="dump" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GermanTranslatorTest.testCase4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerTest.size" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung1.control" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.control.GermanTranslatorTest" />
-      <option name="METHOD_NAME" value="testCase4" />
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung2" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung2.ContainerTest" />
+      <option name="METHOD_NAME" value="size" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GermanTranslatorTest" />
-        <item itemvalue="JUnit.GermanTranslatorTest.testCase1" />
-        <item itemvalue="JUnit.GermanTranslatorTest.testCase4" />
-        <item itemvalue="JUnit.GermanTranslatorTest.testCase3" />
-        <item itemvalue="JUnit.GermanTranslatorTest.testCase2" />
+        <item itemvalue="JUnit.ContainerTest" />
+        <item itemvalue="JUnit.ContainerTest.size" />
+        <item itemvalue="JUnit.ContainerTest.dump" />
+        <item itemvalue="JUnit.ContainerTest.deleteMember" />
+        <item itemvalue="JUnit.ContainerTest.addMember" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634311734207</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Uebung 1 mit Assembler(1)">
+      <created>1634542238892</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634542238892</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -299,19 +306,7 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="se1/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -328,7 +323,8 @@
     <MESSAGE value="Uebung 1 bearbeitet" />
     <MESSAGE value="Uebung 1 fertig" />
     <MESSAGE value="Uebung 1 mit Assembler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uebung 1 mit Assembler" />
+    <MESSAGE value="Uebung 1 mit Assembler(1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uebung 1 mit Assembler(1)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="366" y="0" key="#Project_Structure" timestamp="1633610817798">
@@ -339,6 +335,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1633611005821" />
+    <state x="-3074" y="-327" key="#com.intellij.ide.util.MemberChooser" timestamp="1634549278530">
+      <screen x="-3840" y="-554" width="1920" height="1040" />
+    </state>
+    <state x="-3074" y="-327" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634549278530" />
     <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1633610950996">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -347,49 +347,59 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="551" y="277" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1633768670456" />
-    <state x="445" y="130" key="FileChooserDialogImpl" timestamp="1634311892884">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="-3284" y="-390" key="FileChooserDialogImpl" timestamp="1634550886553">
+      <screen x="-3840" y="-554" width="1920" height="1040" />
     </state>
+    <state x="-3284" y="-390" key="FileChooserDialogImpl/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634550886553" />
     <state x="445" y="130" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1634311892884" />
-    <state width="746" height="153" key="GridCell.Tab.0.bottom" timestamp="1633774123500">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1878" height="207" key="GridCell.Tab.0.bottom" timestamp="1634584796310">
+      <screen x="-3840" y="-554" width="1920" height="1040" />
     </state>
-    <state width="746" height="153" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633774123500" />
-    <state width="746" height="153" key="GridCell.Tab.0.center" timestamp="1633774123500">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1878" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634584796310" />
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634559982324" />
+    <state width="1878" height="207" key="GridCell.Tab.0.center" timestamp="1634584796310">
+      <screen x="-3840" y="-554" width="1920" height="1040" />
     </state>
-    <state width="746" height="153" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1633774123500" />
-    <state width="746" height="153" key="GridCell.Tab.0.left" timestamp="1633774123499">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1878" height="207" key="GridCell.Tab.0.center/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634584796310" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1634559982324" />
+    <state width="1878" height="207" key="GridCell.Tab.0.left" timestamp="1634584796310">
+      <screen x="-3840" y="-554" width="1920" height="1040" />
     </state>
-    <state width="746" height="153" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1633774123499" />
-    <state width="746" height="153" key="GridCell.Tab.0.right" timestamp="1633774123500">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1878" height="207" key="GridCell.Tab.0.left/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634584796310" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1634559982324" />
+    <state width="1878" height="207" key="GridCell.Tab.0.right" timestamp="1634584796310">
+      <screen x="-3840" y="-554" width="1920" height="1040" />
     </state>
-    <state width="746" height="153" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1633774123500" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1633611141374">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1878" height="207" key="GridCell.Tab.0.right/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634584796310" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1634559982324" />
+    <state width="1878" height="271" key="GridCell.Tab.1.bottom" timestamp="1634554224024">
+      <screen x="-3840" y="-554" width="1920" height="1040" />
     </state>
+    <state width="1878" height="271" key="GridCell.Tab.1.bottom/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634554224024" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633611141374" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1633611141373">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1878" height="271" key="GridCell.Tab.1.center" timestamp="1634554224024">
+      <screen x="-3840" y="-554" width="1920" height="1040" />
     </state>
+    <state width="1878" height="271" key="GridCell.Tab.1.center/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634554224024" />
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1633611141373" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1633611141373">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1878" height="271" key="GridCell.Tab.1.left" timestamp="1634554224024">
+      <screen x="-3840" y="-554" width="1920" height="1040" />
     </state>
+    <state width="1878" height="271" key="GridCell.Tab.1.left/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634554224024" />
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1633611141373" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1633611141373">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1878" height="271" key="GridCell.Tab.1.right" timestamp="1634554224024">
+      <screen x="-3840" y="-554" width="1920" height="1040" />
     </state>
+    <state width="1878" height="271" key="GridCell.Tab.1.right/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634554224024" />
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1633611141373" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1633772788842">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1633772788842" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1634311752597">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1634542255358">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-3840.-554.1920.1040@0.0.1536.824" timestamp="1634542255358" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1634311752597" />
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1633612163364">
       <screen x="0" y="0" width="1536" height="824" />
@@ -399,10 +409,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1634310136944" />
-    <state x="-3172" y="-259" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1633968708018">
+    <state x="-3172" y="-259" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1634552053995">
       <screen x="-3840" y="-554" width="1920" height="1040" />
     </state>
-    <state x="-3172" y="-259" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1633968708018" />
+    <state x="-3172" y="-259" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634552053995" />
     <state x="534" y="234" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1633768638452" />
     <state x="568" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1634487321432">
       <screen x="0" y="0" width="1536" height="824" />
