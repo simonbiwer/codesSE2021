@@ -14,7 +14,7 @@ public class Container {
         list = new LinkedList<>();
 //        persistenceStrategy = new PersistenceStrategyStream<>();
     }
-    //stellt sicher dass nur ein Container Objekt erzeugt werden kann (Singleton)
+    //stellt sicher dass nur ein Container Objekt erzeugt werden kann (Singleton-Pattern)
     public static Container getContainer(){
         if (myContainer == null){
             return new Container();
@@ -25,14 +25,14 @@ public class Container {
         persistenceStrategy = p;
     }
     public void store() throws PersistenceException {
-        persistenceStrategy.openConnection();
+//        persistenceStrategy.openConnection();
         persistenceStrategy.save(list);
-        persistenceStrategy.closeConnection();
+//        persistenceStrategy.closeConnection();
     }
     public void load() throws PersistenceException{
-        persistenceStrategy.openConnection();
+//        persistenceStrategy.openConnection();
         list = persistenceStrategy.load();
-        persistenceStrategy.closeConnection();
+//        persistenceStrategy.closeConnection();
     }
 
     public void addMember(Member member) throws ContainerException {

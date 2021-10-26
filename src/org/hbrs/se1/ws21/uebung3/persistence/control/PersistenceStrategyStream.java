@@ -2,6 +2,7 @@ package org.hbrs.se1.ws21.uebung3.persistence.control;
 
 import org.hbrs.se1.ws21.uebung3.persistence.control.PersistenceException;
 import org.hbrs.se1.ws21.uebung3.persistence.control.PersistenceStrategy;
+import org.hbrs.se1.ws21.uebung2.Member;
 
 import java.io.*;
 
@@ -18,11 +19,6 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
         this.location = location;
     }
 
-    private ObjectOutputStream oos = null;
-    private FileOutputStream fos = null;
-    private ObjectInputStream ois = null;
-    private FileInputStream fis = null;
-
     @Override
     /**
      * Method for opening the connection to a stream (here: Input- and Output-Stream)
@@ -30,20 +26,6 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * and save
      */
     public void openConnection() throws PersistenceException {
-        try {
-            fos = new FileOutputStream(location);
-            fis = new FileInputStream(location);
-        } catch (FileNotFoundException e){
-//            System.out.println(e);
-            throw new PersistenceException(PersistenceException.ExceptionType.FileNotFoundException, e.getMessage());
-        }
-        try {
-            oos = new ObjectOutputStream(fos);
-            ois = new ObjectInputStream(fis);
-        } catch (IOException e){
-//            System.out.println(e);
-            throw new PersistenceException(PersistenceException.ExceptionType.IOException, "Fehler");
-        }
 
     }
 
@@ -52,7 +34,7 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * Method for closing the connections to a stream
      */
     public void closeConnection() throws PersistenceException {
-       try{
+    /*   try{
            oos.close();
            fos.close();
            ois.close();
@@ -60,7 +42,7 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
        } catch (IOException e){
 //           System.out.println(e);
            throw new PersistenceException(PersistenceException.ExceptionType.IOException, "Fehler");
-       }
+       }*/
     }
 
     @Override
@@ -68,11 +50,12 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * Method for saving a list of Member-objects to a disk (HDD)
      */
     public void save(List<Member> member) throws PersistenceException  {
-        try {
+        try (FileOutputStream fos = new FileOutputStream(location);     //try-with-resources Block, schließt Closeable automatisch
+            ObjectOutputStream oos = new ObjectOutputStream(fos)){
             oos.writeObject(member);
         } catch (IOException e){
 //            System.out.println(e);
-            throw new PersistenceException(PersistenceException.ExceptionType.IOException, "Fehler");
+            throw new PersistenceException(PersistenceException.ExceptionType.IOException, e.getMessage());
         }
     }
 
@@ -83,14 +66,16 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * Take also a look at the import statements above ;-!
      */
     public List<Member> load() throws PersistenceException  {
-        try {
+        try (FileInputStream fis = new FileInputStream(location);   //try-with-resources Block, schließt Closeable automatisch
+             ObjectInputStream ois = new ObjectInputStream(fis)) {
             Object obj = ois.readObject();
             if (obj instanceof List<?>){
                 return (List<Member>) obj;
             }
+            throw new PersistenceException(PersistenceException.ExceptionType.ImplementationNotAvailable, "Keine Liste gefunden");
         } catch (IOException | ClassNotFoundException e){
-            System.out.println(e.getMessage());
-//            throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, "Fehler");
+//            System.out.println(e.getMessage());
+            throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, e.getMessage());
         }
 
         // Some Coding hints ;-)
@@ -110,6 +95,6 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
         // return newListe
 
         // and finally close the streams (guess where this could be...?)
-        return null;
+//        return null;
     }
 }
