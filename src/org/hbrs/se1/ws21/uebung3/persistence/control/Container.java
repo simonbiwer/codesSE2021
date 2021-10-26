@@ -25,14 +25,16 @@ public class Container {
         persistenceStrategy = p;
     }
     public void store() throws PersistenceException {
-//        persistenceStrategy.openConnection();
+        if (persistenceStrategy == null){
+            throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, "No Strategy set");
+        }
         persistenceStrategy.save(list);
-//        persistenceStrategy.closeConnection();
     }
     public void load() throws PersistenceException{
-//        persistenceStrategy.openConnection();
+        if (persistenceStrategy == null){
+            throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, "No Strategy set");
+        }
         list = persistenceStrategy.load();
-//        persistenceStrategy.closeConnection();
     }
 
     public void addMember(Member member) throws ContainerException {

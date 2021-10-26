@@ -6,12 +6,15 @@ import org.hbrs.se1.ws21.uebung2.Member;
 
 import java.io.*;
 
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 
 public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Member> {
 
     // URL of file, in which the objects are stored
-    private String location = "objects";
+    private String location = "objects.ser";
 
     // Backdoor method used only for testing purposes, if the location should be changed in a Unit-Test
     // Example: Location is a directory (Streams do not like directories, so try this out ;-)!
@@ -26,7 +29,10 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * and save
      */
     public void openConnection() throws PersistenceException {
-
+        Path path = Paths.get(this.location);
+        if (Files.isDirectory(path)){
+            throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, "File darf kein Directory sein");
+        }
     }
 
     @Override
@@ -49,7 +55,8 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
     /**
      * Method for saving a list of Member-objects to a disk (HDD)
      */
-    public void save(List<Member> member) throws PersistenceException  {
+    public void save(List<Member> member) throws PersistenceException {
+        openConnection();
         try (FileOutputStream fos = new FileOutputStream(location);     //try-with-resources Block, schließt Closeable automatisch
             ObjectOutputStream oos = new ObjectOutputStream(fos)){
             oos.writeObject(member);
@@ -66,6 +73,7 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * Take also a look at the import statements above ;-!
      */
     public List<Member> load() throws PersistenceException  {
+        openConnection();
         try (FileInputStream fis = new FileInputStream(location);   //try-with-resources Block, schließt Closeable automatisch
              ObjectInputStream ois = new ObjectInputStream(fis)) {
             Object obj = ois.readObject();

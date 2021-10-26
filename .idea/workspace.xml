@@ -15,12 +15,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="763f765e-6c7b-48ee-a193-e03a2bc9de25" name="Default Changelist" comment="Uebung 3 mit neuem Container, Client und bearbeiteter Persistenz">
+    <list default="true" id="763f765e-6c7b-48ee-a193-e03a2bc9de25" name="Default Changelist" comment="Uebung 3; open und close der Streams in save und load">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/control/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/control/Container.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/control/PersistenceStrategyStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/control/PersistenceStrategyStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/view/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/view/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/view/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/control/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/control/ContainerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,19 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.view.Main" />
-      <module name="codesSE2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung3.persistence.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ContainerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <extension name="coverage">
@@ -115,22 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codesSE2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung2" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung2.ContainerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainerTest.testLoad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerTest.testCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
@@ -140,13 +110,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.control" />
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.control.ContainerTest" />
-      <option name="METHOD_NAME" value="testLoad" />
+      <option name="METHOD_NAME" value="testCase1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainerTest.testStore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerTest.testCase2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
@@ -156,7 +126,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.control" />
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.control.ContainerTest" />
-      <option name="METHOD_NAME" value="testStore" />
+      <option name="METHOD_NAME" value="testCase2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerTest.testCase3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codesSE2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung3.persistence.control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.control" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.control.ContainerTest" />
+      <option name="METHOD_NAME" value="testCase3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContainerTest.testCase4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codesSE2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung3.persistence.control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.control" />
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.control.ContainerTest" />
+      <option name="METHOD_NAME" value="testCase4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,10 +167,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ContainerTest (1)" />
-        <item itemvalue="JUnit.ContainerTest.testLoad" />
-        <item itemvalue="JUnit.ContainerTest.testStore" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="JUnit.ContainerTest" />
+        <item itemvalue="JUnit.ContainerTest.testCase4" />
+        <item itemvalue="JUnit.ContainerTest.testCase3" />
+        <item itemvalue="JUnit.ContainerTest.testCase2" />
+        <item itemvalue="JUnit.ContainerTest.testCase1" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635242889856</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Uebung 3; open und close der Streams in save und load">
+      <created>1635274500868</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1635274500868</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -362,7 +371,8 @@
     <MESSAGE value="Uebung 2 bearbeitet" />
     <MESSAGE value="Uebung 2 fertig" />
     <MESSAGE value="Uebung 3 mit neuem Container, Client und bearbeiteter Persistenz" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uebung 3 mit neuem Container, Client und bearbeiteter Persistenz" />
+    <MESSAGE value="Uebung 3; open und close der Streams in save und load" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uebung 3; open und close der Streams in save und load" />
   </component>
   <component name="WindowStateProjectService">
     <state x="366" y="0" key="#Project_Structure" timestamp="1633610817798">
@@ -394,26 +404,26 @@
     </state>
     <state x="-3284" y="-390" key="FileChooserDialogImpl/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634550886553" />
     <state x="445" y="130" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1635254985310" />
-    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1635255463712">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1635276042563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1878" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634584796310" />
-    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635255463712" />
-    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1635255463712">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635276042563" />
+    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1635276042563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1878" height="207" key="GridCell.Tab.0.center/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634584796310" />
-    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1635255463712" />
-    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1635255463712">
+    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1635276042563" />
+    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1635276042563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1878" height="207" key="GridCell.Tab.0.left/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634584796310" />
-    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1635255463712" />
-    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1635255463712">
+    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1635276042563" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1635276042563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1878" height="207" key="GridCell.Tab.0.right/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634584796310" />
-    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1635255463712" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1635276042563" />
     <state width="1493" height="213" key="GridCell.Tab.1.bottom" timestamp="1635253531833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
