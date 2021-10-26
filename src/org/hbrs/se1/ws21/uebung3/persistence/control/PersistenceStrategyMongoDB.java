@@ -1,4 +1,7 @@
-package org.hbrs.se1.ws21.uebung3.persistence;
+package org.hbrs.se1.ws21.uebung3.persistence.control;
+
+import org.hbrs.se1.ws21.uebung3.persistence.control.PersistenceException;
+import org.hbrs.se1.ws21.uebung3.persistence.control.PersistenceStrategy;
 
 import java.util.List;
 

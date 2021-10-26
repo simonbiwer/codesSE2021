@@ -1,4 +1,4 @@
-package org.hbrs.se1.ws21.uebung3.persistence;
+package org.hbrs.se1.ws21.uebung3.persistence.control;
 
 public class PersistenceException extends Exception {
 
@@ -22,6 +22,7 @@ public class PersistenceException extends Exception {
      * of Type 'ImplementationNotAvailable'. Re-throw the new exception e.g. to a client
      */
     public enum ExceptionType {
-        ImplementationNotAvailable, ConnectionNotAvailable, NoStrategyIsSet
+        ImplementationNotAvailable, ConnectionNotAvailable, NoStrategyIsSet, FileNotFoundException, IOException
+
     }
 }

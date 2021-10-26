@@ -1,22 +1,27 @@
-package org.hbrs.se1.ws21.uebung3.persistence;
+package org.hbrs.se1.ws21.uebung3.persistence.control;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import org.hbrs.se1.ws21.uebung3.persistence.control.PersistenceException;
+import org.hbrs.se1.ws21.uebung3.persistence.control.PersistenceStrategy;
+
+import java.io.*;
 
 import java.util.List;
 
 public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Member> {
 
     // URL of file, in which the objects are stored
-    private String location = "objects.ser";
+    private String location = "objects";
 
     // Backdoor method used only for testing purposes, if the location should be changed in a Unit-Test
     // Example: Location is a directory (Streams do not like directories, so try this out ;-)!
     public void setLocation(String location) {
         this.location = location;
     }
+
+    private ObjectOutputStream oos = null;
+    private FileOutputStream fos = null;
+    private ObjectInputStream ois = null;
+    private FileInputStream fis = null;
 
     @Override
     /**
@@ -25,6 +30,20 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * and save
      */
     public void openConnection() throws PersistenceException {
+        try {
+            fos = new FileOutputStream(location);
+            fis = new FileInputStream(location);
+        } catch (FileNotFoundException e){
+//            System.out.println(e);
+            throw new PersistenceException(PersistenceException.ExceptionType.FileNotFoundException, e.getMessage());
+        }
+        try {
+            oos = new ObjectOutputStream(fos);
+            ois = new ObjectInputStream(fis);
+        } catch (IOException e){
+//            System.out.println(e);
+            throw new PersistenceException(PersistenceException.ExceptionType.IOException, "Fehler");
+        }
 
     }
 
@@ -33,7 +52,15 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * Method for closing the connections to a stream
      */
     public void closeConnection() throws PersistenceException {
-
+       try{
+           oos.close();
+           fos.close();
+           ois.close();
+           fis.close();
+       } catch (IOException e){
+//           System.out.println(e);
+           throw new PersistenceException(PersistenceException.ExceptionType.IOException, "Fehler");
+       }
     }
 
     @Override
@@ -41,7 +68,12 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * Method for saving a list of Member-objects to a disk (HDD)
      */
     public void save(List<Member> member) throws PersistenceException  {
-
+        try {
+            oos.writeObject(member);
+        } catch (IOException e){
+//            System.out.println(e);
+            throw new PersistenceException(PersistenceException.ExceptionType.IOException, "Fehler");
+        }
     }
 
     @Override
@@ -51,6 +83,16 @@ public class PersistenceStrategyStream<Member> implements PersistenceStrategy<Me
      * Take also a look at the import statements above ;-!
      */
     public List<Member> load() throws PersistenceException  {
+        try {
+            Object obj = ois.readObject();
+            if (obj instanceof List<?>){
+                return (List<Member>) obj;
+            }
+        } catch (IOException | ClassNotFoundException e){
+            System.out.println(e.getMessage());
+//            throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, "Fehler");
+        }
+
         // Some Coding hints ;-)
         // ObjectInputStream ois = null;
         // FileInputStream fis = null;
