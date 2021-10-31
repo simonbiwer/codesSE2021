@@ -15,16 +15,21 @@ public class Container {
 //        persistenceStrategy = new PersistenceStrategyStream<>();
     }
     //stellt sicher dass nur ein Container Objekt erzeugt werden kann (Singleton-Pattern)
+    //Lösung nicht thread-safe! (Beispiel mit 2 Clients)
+    //alternative Lösung mit unmittelbarer Erzeugung bei Laden der Klasse zwar thread-safe aber hoher Speicherbedarf
+    private final static Object lock = new Object();
     public static Container getContainer(){
-        if (myContainer == null){
-            return new Container();
+        synchronized (lock) {           //stellt sicher dass nur ein Objekt gleichzeitig in den Block kann
+            if (myContainer == null){
+                return new Container();
+            }
         }
         return myContainer;
     }
     public void setPersistenceStrategy(PersistenceStrategy<Member> p){
         persistenceStrategy = p;
     }
-    public void store() throws PersistenceException {
+    public void store() throws PersistenceException {       //Fehlendes Exception Handling bei MongoDB Strategie
         if (persistenceStrategy == null){
             throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, "No Strategy set");
         }

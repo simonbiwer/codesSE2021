@@ -15,11 +15,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="763f765e-6c7b-48ee-a193-e03a2bc9de25" name="Default Changelist" comment="Uebung 3; open und close der Streams in save und load">
+    <list default="true" id="763f765e-6c7b-48ee-a193-e03a2bc9de25" name="Default Changelist" comment="Uebung 3 fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/control/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/control/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/control/PersistenceStrategyStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/control/PersistenceStrategyStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/control/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/control/ContainerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContainerTest (1)">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.view.Main" />
+      <module name="codesSE2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung3.persistence.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung1.view.Assembler" />
       <module name="codesSE2021" />
@@ -96,22 +107,6 @@
       <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.control" />
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.control.ContainerTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainerTest.testCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codesSE2021" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung3.persistence.control.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.control" />
-      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.control.ContainerTest" />
-      <option name="METHOD_NAME" value="testCase1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.ContainerTest (1)" />
         <item itemvalue="JUnit.ContainerTest.testCase4" />
         <item itemvalue="JUnit.ContainerTest.testCase3" />
         <item itemvalue="JUnit.ContainerTest.testCase2" />
-        <item itemvalue="JUnit.ContainerTest.testCase1" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635274500868</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Uebung 3 fertig">
+      <created>1635276293521</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1635276293521</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -372,7 +374,8 @@
     <MESSAGE value="Uebung 2 fertig" />
     <MESSAGE value="Uebung 3 mit neuem Container, Client und bearbeiteter Persistenz" />
     <MESSAGE value="Uebung 3; open und close der Streams in save und load" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uebung 3; open und close der Streams in save und load" />
+    <MESSAGE value="Uebung 3 fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uebung 3 fertig" />
   </component>
   <component name="WindowStateProjectService">
     <state x="366" y="0" key="#Project_Structure" timestamp="1633610817798">
@@ -404,26 +407,26 @@
     </state>
     <state x="-3284" y="-390" key="FileChooserDialogImpl/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634550886553" />
     <state x="445" y="130" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1635254985310" />
-    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1635276042563">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1635334614662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1878" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634584796310" />
-    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635276042563" />
-    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1635276042563">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635334614662" />
+    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1635334614662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1878" height="207" key="GridCell.Tab.0.center/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634584796310" />
-    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1635276042563" />
-    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1635276042563">
+    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1635334614662" />
+    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1635334614662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1878" height="207" key="GridCell.Tab.0.left/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634584796310" />
-    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1635276042563" />
-    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1635276042563">
+    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1635334614662" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1635334614662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1878" height="207" key="GridCell.Tab.0.right/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634584796310" />
-    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1635276042563" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1635334614662" />
     <state width="1493" height="213" key="GridCell.Tab.1.bottom" timestamp="1635253531833">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -444,15 +447,19 @@
     </state>
     <state width="1878" height="271" key="GridCell.Tab.1.right/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1634554224024" />
     <state width="1493" height="213" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1635253531833" />
+    <state x="349" y="155" key="IDE.errors.dialog" timestamp="1635334630580">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1635334630580" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1635236197736">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1635236197736" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1634673533607">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1635276335674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-3840.-554.1920.1040@0.0.1536.824" timestamp="1634542255358" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1634673533607" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1635276335674" />
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1633612163364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
