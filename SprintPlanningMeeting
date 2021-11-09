@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-31T13:49:05.967Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="9rjazS09y-LCDdWmnN-O" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-31T14:12:46.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36 Edg/94.0.992.38" etag="xEMUlUjGQGlUzHJyZsZW" version="15.5.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="LD0UBv0VEZ4rLbOnq-t6-20" value="Anforderung mit neuer Schätzung ins Product Backlog zurücklegen" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="450" y="970" width="125" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-25" value="Überprüfen, ob das Ziel anzupassen ist" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-25" value="Überprüfen, ob das Sprintziel anzupassen ist" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="452.5" y="1070" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LD0UBv0VEZ4rLbOnq-t6-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LD0UBv0VEZ4rLbOnq-t6-20" target="LD0UBv0VEZ4rLbOnq-t6-25">
@@ -85,8 +85,8 @@
         <mxCell id="LD0UBv0VEZ4rLbOnq-t6-27" value="Forecast aller Beteiligten" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="317.5" y="1360" width="105" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-23" value="Anforderung wird nicht aufgenommen" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="392.5" y="900" width="220" height="20" as="geometry" />
+        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-23" value="Anforderung soll nicht aufgenommen werden" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="395" y="900" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LD0UBv0VEZ4rLbOnq-t6-29" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="347.5" y="900" width="45" height="50" as="geometry" />
@@ -130,15 +130,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-42" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LD0UBv0VEZ4rLbOnq-t6-29" target="LD0UBv0VEZ4rLbOnq-t6-18">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="260" y="950" as="sourcePoint" />
-            <mxPoint x="220" y="925" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="250" y="1040" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="LD0UBv0VEZ4rLbOnq-t6-43" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LD0UBv0VEZ4rLbOnq-t6-25" target="LD0UBv0VEZ4rLbOnq-t6-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="1190" as="sourcePoint" />
@@ -148,8 +139,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-44" value="Anforderung wird aufgenommen" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="900" width="190" height="20" as="geometry" />
+        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-44" value="Anforderung soll aufgenommen werden" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="115" y="900" width="230" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LD0UBv0VEZ4rLbOnq-t6-45" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="347.5" y="1230" width="45" height="50" as="geometry" />
@@ -191,15 +182,51 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LD0UBv0VEZ4rLbOnq-t6-53" value="Selektiertes Product Backlog" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="70" y="1005" width="100" height="60" as="geometry" />
+          <mxGeometry x="40" y="975" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-54" value="Ziel" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-54" value="Sprintziel" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="612.5" y="1065" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LD0UBv0VEZ4rLbOnq-t6-55" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LD0UBv0VEZ4rLbOnq-t6-25" target="LD0UBv0VEZ4rLbOnq-t6-54">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="1230" as="sourcePoint" />
             <mxPoint x="640" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-56" value="Sprintziel" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="515" y="275" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-58" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LD0UBv0VEZ4rLbOnq-t6-6" target="LD0UBv0VEZ4rLbOnq-t6-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="250" as="sourcePoint" />
+            <mxPoint x="560" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-59" value="Anforderung in das Selektierte Product Backlog aufnehmen" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="203" y="970" width="112" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-60" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LD0UBv0VEZ4rLbOnq-t6-29" target="LD0UBv0VEZ4rLbOnq-t6-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1060" as="sourcePoint" />
+            <mxPoint x="410" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="925" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-61" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LD0UBv0VEZ4rLbOnq-t6-53" target="LD0UBv0VEZ4rLbOnq-t6-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="1130" as="sourcePoint" />
+            <mxPoint x="140" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LD0UBv0VEZ4rLbOnq-t6-62" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LD0UBv0VEZ4rLbOnq-t6-59" target="LD0UBv0VEZ4rLbOnq-t6-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="1120" as="sourcePoint" />
+            <mxPoint x="260" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="1165" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
