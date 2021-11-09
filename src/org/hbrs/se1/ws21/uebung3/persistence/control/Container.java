@@ -41,6 +41,24 @@ public class Container {
         }
         list = persistenceStrategy.load();
     }
+    public void loadMerge() throws PersistenceException{
+        if (persistenceStrategy == null){
+            throw new PersistenceException(PersistenceException.ExceptionType.ConnectionNotAvailable, "No Strategy set");
+        }
+        List<Member> loadMember = persistenceStrategy.load();
+        for (Member neu : loadMember){
+            boolean schonDrin = false;
+            for (Member alt : list){
+                if (neu.getID().equals(alt.getID())){
+                    schonDrin = true;
+                }
+            }
+            if (schonDrin){
+                continue;
+            }
+            list.add(neu);
+        }
+    }
 
     public void addMember(Member member) throws ContainerException {
         if (contains(member.getID()) != null){

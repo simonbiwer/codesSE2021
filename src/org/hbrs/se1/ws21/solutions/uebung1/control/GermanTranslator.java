@@ -26,7 +26,7 @@ public class GermanTranslator implements Translator {
 		try {
 			// Aus dem Array wird durch eine Indexierung über die nummerische Zahl 
 			// der String ausgewertet. Achtung: der Index eines Array faengt bei 0 an!
-			// Eingabe 1 --> String = eins --> zu finden im Array an Index Nr. 0
+			// Dialog 1 --> String = eins --> zu finden im Array an Index Nr. 0
 			// Daher die Zahl stets um 1 zu verringern.
 			result = zahlen[  number - 1 ];
 		
