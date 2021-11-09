@@ -33,11 +33,11 @@ public class Dialog {
                     store();
                     break;
                 case "load":
-                    load(zeile);
+                    load(sc);
                     break;
                 case "dump":
-                    if (zeile.length == 3){
-                        MitarbeiterView.dump(container.getCurrentList(), zeile[2]);
+                    if (zeile.length == 2){
+                        MitarbeiterView.dump(container.getCurrentList(), zeile[1]);
                     } else{
                         MitarbeiterView.dump(container.getCurrentList(),  null);       //Filter-Map-Reduce?
                     }
@@ -63,9 +63,14 @@ public class Dialog {
         try{
             id = Integer.parseInt(zeile[1]);
         } catch (NumberFormatException e){
-            System.out.println("Der erste Parameter muss eine Zahl sein");
+            System.out.println("Fehler: Der erste Parameter muss eine Zahl sein");
+            return;
         }
-        System.out.println("Abteilung?: ");
+        if (zeile.length < 5){
+            System.out.println("Fehler: Bitte 'ID Vorname Nachname Rolle' eingeben");
+            return;
+        }
+        System.out.println("Abteilung eingeben?: (ja/nein und ggf Abteilung eingeben)");
         String abteilung;
         String[] s = sc.nextLine().split(" ");
         if (s[0].equals("ja")){
@@ -80,7 +85,7 @@ public class Dialog {
             if (x[0].equals("ja")){
                 System.out.print("Expertise: ");
                 String exp = sc.nextLine().split(" ")[0];
-                System.out.print("Expertise-Level: ");
+                System.out.print("Expertise-Level (Wert von 1 bis 3): ");
                 Integer lvl = Integer.parseInt(sc.nextLine().split(" ")[0]);
                 expertisen.put(exp, lvl);
             }
@@ -102,15 +107,17 @@ public class Dialog {
         }
         System.out.println("Mitarbeiter gespeichert!");
     }
-    private static void load(String[] zeile){
-        if (zeile[1].equals("merge")){
+    private static void load(Scanner sc){
+        System.out.println("Geben Sie 'force' zum Überschreiben oder 'merge' zum Zusammenfügen an:");
+        String s = sc.nextLine().split(" ")[0];
+        if (s.equals("merge")){
             try{
                 container.loadMerge();
             } catch (PersistenceException e){
                 System.out.println(e.getMessage());
             }
         }
-        if (zeile[1].equals("force")){
+        if (s.equals("force")){
             try {
                 container.load();
             } catch (PersistenceException e){
@@ -122,8 +129,8 @@ public class Dialog {
     private static void help(){
         System.out.println("Eingabe eines Mitarbeiters: enter [ID, Vorname, Name, Rolle]");
         System.out.println("Speichern der Mitarbeiter: store");
-        System.out.println("Laden aus Speicher: load [force oder merge]");
-        System.out.println("Ausgabe der Mitarbeiter: dump Optional:[Abteilung abteilung]");
+        System.out.println("Laden aus Speicher: load");
+        System.out.println("Ausgabe der Mitarbeiter: dump Optional:[Abteilung]");
         System.out.println("Beenden des Programms: exit");
         System.out.println("Suche nach Mitarbeitern mit Expertise: search [Expertise]");
     }

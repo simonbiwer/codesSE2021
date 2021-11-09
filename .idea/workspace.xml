@@ -5,17 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="763f765e-6c7b-48ee-a193-e03a2bc9de25" name="Default Changelist" comment="Uebung 3 mit Besprechungskommentaren">
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/control/Dialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/control/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/model/ComparatorMitarbeiterID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/model/Mitarbeiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/view/MitarbeiterView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_10_2021_11_30__Default_Changelist_.xml" beforeDir="false" />
+    <list default="true" id="763f765e-6c7b-48ee-a193-e03a2bc9de25" name="Default Changelist" comment="Uebung 4 ohne Tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/solutions/uebung1/control/EnglishTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/solutions/uebung1/control/EnglishTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/solutions/uebung1/control/GermanTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/solutions/uebung1/control/GermanTranslator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/control/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/control/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/control/Dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/control/Dialog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635684315280</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Uebung 4 ohne Tests">
+      <created>1636454532928</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1636454532928</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -389,7 +388,8 @@
     <MESSAGE value="Uebung 3; open und close der Streams in save und load" />
     <MESSAGE value="Uebung 3 fertig" />
     <MESSAGE value="Uebung 3 mit Besprechungskommentaren" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uebung 3 mit Besprechungskommentaren" />
+    <MESSAGE value="Uebung 4 ohne Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uebung 4 ohne Tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="366" y="0" key="#Project_Structure" timestamp="1633610817798">
@@ -430,30 +430,30 @@
     </state>
     <state x="-3284" y="-390" key="FileChooserDialogImpl/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1635854961342" />
     <state x="445" y="130" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1635254985310" />
-    <state width="1878" height="194" key="GridCell.Tab.0.bottom" timestamp="1636452454563">
-      <screen x="-3840" y="-554" width="1920" height="1040" />
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom" timestamp="1636457891519">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1878" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1636452454563" />
     <state width="1072" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824/-3840.-554.1920.1040@0.0.1536.824" timestamp="1635776576037" />
-    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636373568191" />
-    <state width="1878" height="194" key="GridCell.Tab.0.center" timestamp="1636452454563">
-      <screen x="-3840" y="-554" width="1920" height="1040" />
+    <state width="1493" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1636457891519" />
+    <state width="1493" height="174" key="GridCell.Tab.0.center" timestamp="1636457891519">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1878" height="194" key="GridCell.Tab.0.center/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1636452454563" />
     <state width="1072" height="194" key="GridCell.Tab.0.center/0.0.1536.824/-3840.-554.1920.1040@0.0.1536.824" timestamp="1635776576037" />
-    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1636373568191" />
-    <state width="1878" height="194" key="GridCell.Tab.0.left" timestamp="1636452454563">
-      <screen x="-3840" y="-554" width="1920" height="1040" />
+    <state width="1493" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1636457891519" />
+    <state width="1493" height="174" key="GridCell.Tab.0.left" timestamp="1636457891518">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1878" height="194" key="GridCell.Tab.0.left/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1636452454563" />
     <state width="1072" height="194" key="GridCell.Tab.0.left/0.0.1536.824/-3840.-554.1920.1040@0.0.1536.824" timestamp="1635776576037" />
-    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1636373568191" />
-    <state width="1878" height="194" key="GridCell.Tab.0.right" timestamp="1636452454563">
-      <screen x="-3840" y="-554" width="1920" height="1040" />
+    <state width="1493" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1636457891518" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right" timestamp="1636457891519">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1878" height="194" key="GridCell.Tab.0.right/0.0.1536.824/-3840.-554.1920.1040@-3840.-554.1920.1040" timestamp="1636452454563" />
     <state width="1072" height="194" key="GridCell.Tab.0.right/0.0.1536.824/-3840.-554.1920.1040@0.0.1536.824" timestamp="1635776576037" />
-    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1636373568191" />
+    <state width="1493" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1636457891519" />
     <state width="1493" height="212" key="GridCell.Tab.1.bottom" timestamp="1636123356701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -482,20 +482,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1635236197736" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1635276335674">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1636454727534">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-3840.-554.1920.1040@0.0.1536.824" timestamp="1634542255358" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1635276335674" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1636454727534" />
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1633612163364">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1633612163364" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635688316583">
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636454638126">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-3840.-554.1920.1040@0.0.1536.824" timestamp="1635688316583" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1635236302975" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1636454638126" />
     <state x="534" y="234" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1635236788329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
