@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-12-07T22:11:15.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="D91ym3KNy1euMndOGSbJ" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-09T11:41:56.325Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="qhJXgyBAdYog0vr_e8Tp" version="15.8.7" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="DataManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=": DataManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=4" parent="1" vertex="1">
           <mxGeometry x="190" y="80" width="130" height="390" as="geometry" />
         </mxCell>
         <mxCell id="7yYwDNLaid8s4kdekSLS-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
@@ -16,7 +16,7 @@
         <mxCell id="7yYwDNLaid8s4kdekSLS-15" value="addData()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
           <mxGeometry x="70" y="160" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="UI-Objekt" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=": UI-Objekt" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontStyle=4" parent="1" vertex="1">
           <mxGeometry x="375" y="80" width="100" height="380" as="geometry" />
         </mxCell>
         <mxCell id="7yYwDNLaid8s4kdekSLS-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
@@ -38,7 +38,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7yYwDNLaid8s4kdekSLS-5" value="Producer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="170" width="100" height="300" as="geometry" />
+          <mxGeometry x="60" y="170" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="7yYwDNLaid8s4kdekSLS-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="7yYwDNLaid8s4kdekSLS-5">
           <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
