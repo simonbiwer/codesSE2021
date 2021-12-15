@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T12:53:16.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="RaZmUpNjSsotil_k7z0R" version="15.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T13:01:20.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.41" etag="zNz7zjK2lKtf44Zhca52" version="15.8.7" type="github">
   <diagram id="7TxvTPi2u_OZDGSdua8f" name="Page-1">
     <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,7 +80,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="po-jwHaHVKg7VqSlydke-3" value=":Reiseanbieter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="40" width="100" height="530" as="geometry" />
+          <mxGeometry x="620" y="40" width="170" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="po-jwHaHVKg7VqSlydke-38" value="Keine Typen sondern Instanzen zurückgeben" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="po-jwHaHVKg7VqSlydke-3">
+          <mxGeometry x="90" y="380" width="80" height="120" as="geometry" />
         </mxCell>
         <mxCell id="po-jwHaHVKg7VqSlydke-6" value=":SuchAuftrag" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="110" width="100" height="420" as="geometry" />
