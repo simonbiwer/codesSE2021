@@ -9,7 +9,7 @@ import org.hbrs.se1.ws21.uebung4.model.Mitarbeiter;
 
 import java.util.*;
 
-public class Dialog {
+public class Dialog {           //Möglichkeit des Command Pattern bei vielen Befehlen (Klassen für Kommandos)
 
     public Dialog(Container container){
         this.container = container;
