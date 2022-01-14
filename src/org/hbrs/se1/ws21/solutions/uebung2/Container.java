@@ -16,10 +16,15 @@ public class Container {
 	 * Alternative: HashMap oder Set. HashMap hat vor allem Probleme 
 	 * bei der Bewahrung der Konsistenz vom Key und Value (siehe TestStore, letzter Test)
 	 */
-	private List<Member> liste = new ArrayList<Member>(); 
-	
-	
-	/*
+	private List<Member> liste = new ArrayList<Member>();
+
+    public static Container getInstance() {
+    	//Achtung nur um keinen Fehler im Package zu haben!!!
+    	return null;
+    }
+
+
+    /*
 	 * Methode zum Hinzufuegen einer Member.
 	 * @throws ContainerException
 	 */ 
